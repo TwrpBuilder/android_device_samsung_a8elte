@@ -31,5 +31,5 @@ deploy:
   file: $HOME/twrp/*.img
   on:
     tags: false
-    repo: TwrpBuilder/android_device_a8elte
+    repo: TwrpBuilder/twrp_device_a8elte
     branch: master
