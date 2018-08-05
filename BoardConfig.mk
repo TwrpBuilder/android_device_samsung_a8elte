@@ -29,9 +29,9 @@ BOARD_RECOVERYIMAGE_PARTITION_SIZE := 0x00D00000
 BOARD_SYSTEMIMAGE_PARTITION_SIZE := 0x105c0000
 BOARD_USERDATAIMAGE_PARTITION_SIZE := 0x105c0000
 BOARD_FLASH_BLOCK_SIZE := 131072
-TARGET_KERNEL_SOURCE := kernel/samsung/a8elte
-TARGET_KERNEL_CONFIG := a8mea_03_defconfig
-#TARGET_PREBUILT_KERNEL := device/samsung/a8elte/zImage
+#TARGET_KERNEL_SOURCE := kernel/samsung/a8elte
+#TARGET_KERNEL_CONFIG := a8mea_03_defconfig
+TARGET_PREBUILT_KERNEL := device/samsung/a8elte/zImage
 
 
 # Use this flag if the board has a ext4 partition larger than 2gb
